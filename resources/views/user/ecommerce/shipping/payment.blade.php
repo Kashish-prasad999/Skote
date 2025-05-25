@@ -175,7 +175,7 @@ Payment
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
 <script src="https://www.paypal.com/sdk/js?client-id=AZdXuUZJVs-doHIrSaCCnq0gBpeA4skuGsBFR_CPcOw8ownmuv08z-vRWnUQ5J42eoHs8-jBp6hd4EFo"></script>
 
-<!-- <script src="{{asset('storage/app/public/assets/js/paypal.js')}}"></script> -->
+<!-- <script src="{{asset('storage/assets/js/paypal.js')}}"></script> -->
 <script>
     $(document).ready(function() {
         $('.pay_card').hide();

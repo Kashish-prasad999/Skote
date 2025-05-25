@@ -49,7 +49,7 @@ Dashboard
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="avatar-md profile-user-wid mb-4">
-                                    <img src="{{asset('storage/app/public/assets/images/users/avatar-1.jpg')}}" alt="" class="img-thumbnail rounded-circle">
+                                    <img src="{{asset('storage/assets/images/users/avatar-1.jpg')}}" alt="" class="img-thumbnail rounded-circle">
                                 </div>
                                 <h5 class="font-size-15 text-truncate">{{Auth::user()->username}}</h5>
                                 <p class="text-muted mb-0 text-truncate">{{$roles}}</p>

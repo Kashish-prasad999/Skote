@@ -43,7 +43,7 @@ Dashboard
                                 </div>
                             </div>
                             <div class="col-5 align-self-end">
-                                <img src="{{asset('storage/app/public/assets/images/profile-img.png')}}" alt="" class="img-fluid">
+                                <img src="{{asset('storage/assets/images/profile-img.png')}}" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>

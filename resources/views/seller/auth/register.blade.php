@@ -7,14 +7,14 @@
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
         <meta content="Themesbrand" name="author" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="{{asset('storage/app/public/assets/images/favicon.ico')}}">
+        <link rel="shortcut icon" href="{{asset('storage/assets/images/favicon.ico')}}">
 
         <!-- Bootstrap Css -->
-        <link href="{{asset('storage/app/public/assets/css/bootstrap.min.css')}}" id="bootstrap-style" rel="stylesheet" type="text/css" />
+        <link href="{{asset('storage/assets/css/bootstrap.min.css')}}" id="bootstrap-style" rel="stylesheet" type="text/css" />
         <!-- Icons Css -->
-        <link href="{{asset('storage/app/public/assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
+        <link href="{{asset('storage/assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
         <!-- App Css-->
-        <link href="{{asset('storage/app/public/assets/css/app.min.css')}}" id="app-style" rel="stylesheet" type="text/css" />
+        <link href="{{asset('storage/assets/css/app.min.css')}}" id="app-style" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -36,7 +36,7 @@
                                         </div>
                                     </div>
                                     <div class="col-5 align-self-end">
-                                        <img src="{{asset('storage/app/public/assets/images/profile-img.png')}}" alt="" class="img-fluid">
+                                        <img src="{{asset('storage/assets/images/profile-img.png')}}" alt="" class="img-fluid">
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@
                                     <a href="index.html">
                                         <div class="avatar-md profile-user-wid mb-4">
                                             <span class="avatar-title rounded-circle bg-light">
-                                                <img src="{{asset('storage/app/public/assets/images/logo.svg')}}" alt="" class="rounded-circle" height="34">
+                                                <img src="{{asset('storage/assets/images/logo.svg')}}" alt="" class="rounded-circle" height="34">
                                             </span>
                                         </div>
                                     </a>

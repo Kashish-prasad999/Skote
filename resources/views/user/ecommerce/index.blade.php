@@ -212,8 +212,8 @@ Products
 @section('script')
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <!-- Ion Range Slider-->
-<link href="{{asset('storage/app/public/assets/libs/ion-rangeslider/css/ion.rangeSlider.min.css')}}" rel="stylesheet" type="text/css"/>
-<script src="{{asset('storage/app/public/assets/libs/ion-rangeslider/js/ion.rangeSlider.min.js')}}"></script>
+<link href="{{asset('storage/assets/libs/ion-rangeslider/css/ion.rangeSlider.min.css')}}" rel="stylesheet" type="text/css"/>
+<script src="{{asset('storage/assets/libs/ion-rangeslider/js/ion.rangeSlider.min.js')}}"></script>
 
 
 

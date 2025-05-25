@@ -5,13 +5,13 @@
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="{{asset('storage/app/public/assets/images/favicon.ico')}}">
+    <link rel="shortcut icon" href="{{asset('storage/assets/images/favicon.ico')}}">
 
     <!-- Bootstrap Css -->
-    <link href="{{asset('storage/app/public/assets/css/bootstrap.min.css')}}" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <link href="{{asset('storage/assets/css/bootstrap.min.css')}}" id="bootstrap-style" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->
-    <link href="{{asset('storage/app/public/assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('storage/assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
     <!-- App Css-->
-    <link href="{{asset('storage/app/public/assets/css/app.min.css')}}" id="app-style" rel="stylesheet" type="text/css" />
+    <link href="{{asset('storage/assets/css/app.min.css')}}" id="app-style" rel="stylesheet" type="text/css" />
     @yield('css')
 </head>

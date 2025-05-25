@@ -8,19 +8,19 @@
                 <div class="navbar-brand-box">
                     <a href="{{route('index')}}" class="logo logo-dark">
                         <span class="logo-sm">
-                            <img src="{{asset('storage/app/public/assets/images/logo.svg')}}" alt="" height="22">
+                            <img src="{{asset('storage/assets/images/logo.svg')}}" alt="" height="22">
                         </span>
                         <span class="logo-lg ">
-                            <img src="{{asset('storage/app/public/assets/images/logo-dark.png')}}" alt="" height="17">
+                            <img src="{{asset('storage/assets/images/logo-dark.png')}}" alt="" height="17">
                         </span>
                     </a>
 
                     <a href="{{route('index')}}" class="logo logo-light">
                         <span class="logo-sm">
-                            <img src="{{asset('storage/app/public/assets/images/logo-light.svg')}}" alt="" height="22">
+                            <img src="{{asset('storage/assets/images/logo-light.svg')}}" alt="" height="22">
                         </span>
                         <span class="logo-lg">
-                            <img src="{{asset('storage/app/public/assets/images/logo-light.png')}}" alt="" height="19">
+                            <img src="{{asset('storage/assets/images/logo-light.png')}}" alt="" height="19">
                         </span>
                     </a>
                 </div>
@@ -72,7 +72,7 @@
                 <div class="dropdown d-inline-block">
                     <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        @auth<img class="rounded-circle header-profile-user" src="{{asset('storage/app/public/assets/images/users/avatar-1.jpg')}}"
+                        @auth<img class="rounded-circle header-profile-user" src="{{asset('storage/assets/images/users/avatar-1.jpg')}}"
                             alt="Header Avatar">
                            
                         <span class="d-none d-xl-inline-block ml-1">
