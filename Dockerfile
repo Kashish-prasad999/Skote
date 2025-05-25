@@ -1,16 +1,17 @@
 # Use PHP 8.2 with Apache
 FROM php:8.2-apache
 
-# Install dependencies
+# Install dependencies and PostgreSQL driver
 RUN apt-get update && apt-get install -y \
     libpng-dev \
     libonig-dev \
     libxml2-dev \
+    libpq-dev \                            
     zip \
     unzip \
     git \
     curl \
-    && docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd
+    && docker-php-ext-install pdo pdo_mysql pdo_pgsql mbstring exif pcntl bcmath gd
 
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite
@@ -36,8 +37,9 @@ RUN composer install --no-dev --optimize-autoloader
 # Expose port 80
 EXPOSE 80
 
+# Create storage link
+RUN php artisan storage:link
+
 # Start Apache in the foreground
 CMD ["apache2-foreground"]
 
-# (this is typically already in the file)
-CMD php artisan storage:link && php artisan serve --host=0.0.0.0 --port=10000
