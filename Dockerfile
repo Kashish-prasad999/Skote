@@ -38,3 +38,6 @@ EXPOSE 80
 
 # Start Apache in the foreground
 CMD ["apache2-foreground"]
+
+# (this is typically already in the file)
+CMD php artisan storage:link && php artisan serve --host=0.0.0.0 --port=10000
