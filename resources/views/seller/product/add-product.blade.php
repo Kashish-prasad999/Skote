@@ -104,7 +104,7 @@ Add Product
                                             <option value="">-----Select  Discount ----</option> 
                                             @foreach($discounts as $discount)
                                                 
-                                                    <option value="{{$discount->percentage}}">{{$discount->percentage}}%</option>
+                                                    <option value="{{$discount->id}}">{{$discount->percentage}}%</option>
                                                 <!-- </a> -->
                                             @endforeach
                                        </select>

@@ -22,7 +22,7 @@ Display Category
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">Category</a></li>
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">States</a></li>
                                 <li class="breadcrumb-item active">Display</li>
                             </ol>
                         </div>
