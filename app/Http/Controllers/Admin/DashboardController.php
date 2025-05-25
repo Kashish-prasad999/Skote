@@ -33,7 +33,7 @@ class DashboardController extends Controller
         $orders = Order::count();
         $products = Product::count();
         
-        return view("Admin.dashboard", compact('roles', 'sellers', 'users', 'total', 'categories', 'subcategories', 'states', 'cities', 'orders', 'products'));
+        return view("admin.dashboard", compact('roles', 'sellers', 'users', 'total', 'categories', 'subcategories', 'states', 'cities', 'orders', 'products'));
     }
     public function seller(){
 
