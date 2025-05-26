@@ -114,7 +114,7 @@ Product Details
                                 </p>
                                 <p class="text-muted mb-4">( 152 Customers Review )</p>
 
-                                <h6 class="text-success text-uppercase">{{$products->discountss->percentage}}% OFF</h6>
+                                <h6 class="text-success text-uppercase">{{$product->discountss?->percentage ?? 0}}% OFF</h6>
                                 <h5 class="mb-4">Price : <span class="text-muted mr-2"><del>$240 USD</del></span> <b>₹{{$products->price}}</b></h5>
                                 <p class="text-muted mb-4">To achieve this, it would be necessary to have uniform grammar pronunciation and more common words If several languages coalesce..................................................................................................................</p>
 
