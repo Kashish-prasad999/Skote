@@ -146,7 +146,7 @@ Products
                     <div class="col-xl-4 col-sm-6">
                         {{-- @include('user.ecommerce.display', ['product' => $product])  --}}
                         <div class="card">
-                            <div class="card-body" style="height:46rem;">
+                            <div class="card-body">
                                 <a href="{{url('ecommerce/details/'.$product->id)}}">
                                     <div class="product-img position-relative">
                                         <div class="avatar-sm product-ribbon">
