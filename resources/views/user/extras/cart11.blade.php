@@ -54,7 +54,7 @@
                                                 <tr>
                                                     <td>
                                                     @if (isset($product['image']))
-                                                        <img src="{{asset('storage/app/public/uploads/images/'.$product['image'])}}" alt="Image" class="avatar-md">
+                                                        <img src="{{asset('storage/uploads/images/'.$product['image'])}}" alt="Image" class="avatar-md">
                                                     @endif
                                                     </td>
                                                     <td>

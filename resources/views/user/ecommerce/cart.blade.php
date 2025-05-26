@@ -59,7 +59,7 @@ Cart
                                                     <tr rowId="{{ $id }}" class="row-{{$id}}">
                                                         <td data-th="Product">
                                                             {{-- @foreach($details['image'] as $picture) --}}
-                                                            <a href="{{route('product.details',[$id])}}"><img src="{{asset('storage/app/public/uploads/images/'.$details['image'])}}" alt="Image" class="avatar-md"></a>
+                                                            <a href="{{route('product.details',[$id])}}"><img src="{{asset('storage/uploads/images/'.$details['image'])}}" alt="Image" class="avatar-md"></a>
                                                             {{-- @endforeach --}}
 
                                                         </td>
@@ -101,7 +101,7 @@ Cart
                                                             $img=json_decode($cart->product->image)[0];
                                                         @endphp    --}}
                                         
-                                                        <a href="{{url('ecommerce/details/'.$cart->product_id)}}"><img src="{{asset('storage/app/public/uploads/images/'.$cart->product->pictures[0]->image)}}" alt="Image" class="avatar-md"></a>
+                                                        <a href="{{url('ecommerce/details/'.$cart->product_id)}}"><img src="{{asset('storage/uploads/images/'.$cart->product->pictures[0]->image)}}" alt="Image" class="avatar-md"></a>
                                                     </td>
                                                     <td>
                                                         <h5 class="font-size-14 text-truncate"><a href="{{url('ecommerce/details/'.$cart->product_id)}}" class="text-dark">{{$cart->product->brand}}&nbsp;{{$cart->product->product_name}}</a></h5>

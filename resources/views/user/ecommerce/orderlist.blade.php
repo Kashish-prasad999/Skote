@@ -142,7 +142,7 @@ Orders list
                                                                                             {{-- @php                                                             
                                                                                                 $img=json_decode($item->product->image)[0];
                                                                                             @endphp --}}
-                                                                                            <img src="{{asset('storage/app/public/uploads/images/'.$item->product->pictures[0]->image)}}" alt="product-img" class="avatar-sm">
+                                                                                            <img src="{{asset('storage/uploads/images/'.$item->product->pictures[0]->image)}}" alt="product-img" class="avatar-sm">
                                                                                         </div>
                                                                                     </th>
                                                                                     <td>

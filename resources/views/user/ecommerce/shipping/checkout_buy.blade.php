@@ -118,7 +118,7 @@ Checkout
                                                                         $img=json_decode($product->image)[0];
                                                                     @endphp --}}
                                                                     <th scope="row">
-                                                                        <a href="{{route('product.details',$product->id)}}"><img src="{{asset('storage/app/public/uploads/images/'.$product->pictures[0]->image)}}"  alt="product-img" title="product-img" class="avatar-md"></a>
+                                                                        <a href="{{route('product.details',$product->id)}}"><img src="{{asset('storage/uploads/images/'.$product->pictures[0]->image)}}"  alt="product-img" title="product-img" class="avatar-md"></a>
                                                                     </th>
                                                                     <td>
                                                                         <h5 class="font-size-14 text-truncate"><a href="{{route('product.details',[$product->id])}}" class="text-dark">{{$product->brand}}&nbsp;{{$product->product_name}}</a></h5>

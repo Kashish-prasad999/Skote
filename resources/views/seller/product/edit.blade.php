@@ -90,7 +90,7 @@ Edit product
                                         $img=json_decode($product->image);
                                     @endphp      -->
                                     @foreach($product->pictures as $picture)
-                                        <img src="{{asset('storage/app/public/uploads/images/'.$picture->image)}}" width="100px" height="100px" alt="Image"><br><br>
+                                        <img src="{{asset('storage/uploads/images/'.$picture->image)}}" width="100px" height="100px" alt="Image"><br><br>
                                     @endforeach
                                 </div>
                                 <div class="form-group row mb-4">
@@ -98,7 +98,7 @@ Edit product
                                     <div class="col-lg-10">
                                         <div class="custom-file">
                                             <!-- <input name="image[]" type="file" class="custom-file-input" id="customFile" multiple/> -->
-                                            <input type="file" value="{{asset('storage/app/public/uploads/images/'.$product->image)}}" name=image[] class="custom-file-input" id="customFile" reqired multiple>
+                                            <input type="file" value="{{asset('storage/uploads/images/'.$product->image)}}" name=image[] class="custom-file-input" id="customFile" reqired multiple>
                                             <label class="custom-file-label" for="customFile">Choose file</label>
                                         </div>
                                         @error('image')

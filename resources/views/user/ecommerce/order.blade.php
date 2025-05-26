@@ -38,7 +38,7 @@ Order
             <div class="col-lg-12" >
                 <div class="card " >
                     <div class="card-body bg">
-                        <img src="{{asset('storage/app/public/uploads/images/confirm.gif')}}" class=" gif" alt="">
+                        <img src="{{asset('storage/uploads/images/confirm.gif')}}" class=" gif" alt="">
                         <h4 class="text-center ">Order Confirmed!!</h4>
                         <h4 class="text-center ">Thank You for ordering...</h4>
                         <h4 class="text-center ">Order Id: {{Session::get('order')}} </h4>
@@ -52,7 +52,7 @@ Order
             <div class="col-lg-12" >
                 <div class="card " >
                     <div class="card-body">
-                        <img src="{{asset('storage/app/public/uploads/images/bad-sign.gif')}}" class="gifs" alt="">
+                        <img src="{{asset('storage/uploads/images/bad-sign.gif')}}" class="gifs" alt="">
                         <h4 class="text-center ">Opps!!!! Your Payment is not Successfull.</h4>
                         <h4 class="text-center ">Order Failed.....</h4>
 

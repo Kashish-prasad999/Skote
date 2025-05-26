@@ -110,7 +110,7 @@ Display Product
                                             $img=json_decode($item->image);
                                             @endphp --}}
                                             @foreach($item->pictures as $picture)
-                                            <img src="{{asset('storage/app/public/uploads/images/'.$picture->image)}}" width="100px" height="100px" alt="Image">
+                                            <img src="{{asset('storage/uploads/images/'.$picture->image)}}" width="100px" height="100px" alt="Image">
                                             @endforeach
                                         </td>
                                         <td>

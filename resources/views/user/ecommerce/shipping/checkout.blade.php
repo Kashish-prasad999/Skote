@@ -117,7 +117,7 @@ Checkout
                                                                     {{-- @php                                                             
                                                                         $img=json_decode($cart->product->image)[0];
                                                                     @endphp --}}
-                                                                    <th scope="row"><img src="{{asset('storage/app/public/uploads/images/'.$cart->product->pictures[0]->image)}}" alt="product-img" title="product-img" class="avatar-md"></th>
+                                                                    <th scope="row"><img src="{{asset('storage/uploads/images/'.$cart->product->pictures[0]->image)}}" alt="product-img" title="product-img" class="avatar-md"></th>
                                                                     <td>
                                                                         <h5 class="font-size-14 text-truncate"><a href="{{route('product.details',[$cart->product->id])}}" class="text-dark">{{$cart->product->brand}}&nbsp;{{$cart->product->product_name}}</a></h5>
                                                                         <p class="text-muted mb-0">₹{{$cart->product->price}} x {{$cart->quantity}}</p>

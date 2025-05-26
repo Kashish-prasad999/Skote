@@ -39,7 +39,7 @@ Sellers
                                         @php
                                             $img=json_decode($product->image)[0];
                                         @endphp
-                                        <img src="{{asset('storage/app/public/uploads/images/'.$img)}}" style="height: 15rem; width: 12rem" alt="Image">
+                                        <img src="{{asset('storage/uploads/images/'.$img)}}" style="height: 15rem; width: 12rem" alt="Image">
                                     </span>
                                 </div>
 
@@ -56,9 +56,9 @@ Sellers
                                         @if(count($image)>0)
                                             @foreach($image as $picture)
                                             
-                                                <a href="{{asset('storage/app/public/uploads/images/'.$picture)}}" class="team-member d-inline-block" data-toggle="tooltip" data-placement="top" title="" data-original-title="Daniel Canales">
+                                                <a href="{{asset('storage/uploads/images/'.$picture)}}" class="team-member d-inline-block" data-toggle="tooltip" data-placement="top" title="" data-original-title="Daniel Canales">
                                                 
-                                                    <img src="{{asset('storage/app/public/uploads/images/'.$picture)}}" class="rounded-circle avatar-xs m-1" alt="Image">
+                                                    <img src="{{asset('storage/uploads/images/'.$picture)}}" class="rounded-circle avatar-xs m-1" alt="Image">
                                                 </a>
                                             @endforeach
                                         @endif

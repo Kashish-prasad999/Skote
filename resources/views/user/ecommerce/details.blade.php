@@ -69,8 +69,8 @@ Product Details
                                             @endphp  --}}
                                         <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
                                             @foreach($products->pictures as $img)
-                                            <a class="nav-link" target="_parent" href="{{asset('storage/app/public/uploads/images/'.$img->image)}}" role="tab" style="height:7rem; width:6rem">
-                                                <img src="{{asset('storage/app/public/uploads/images/'.$img->image)}}" style="height:5rem; width:7rem" alt="Img" class="img-fluid mx-auto d-block rounded">
+                                            <a class="nav-link" target="_parent" href="{{asset('storage/uploads/images/'.$img->image)}}" role="tab" style="height:7rem; width:6rem">
+                                                <img src="{{asset('storage/uploads/images/'.$img->image)}}" style="height:5rem; width:7rem" alt="Img" class="img-fluid mx-auto d-block rounded">
                                             </a>
                                             @endforeach
                                         </div>
@@ -82,7 +82,7 @@ Product Details
                                         @endphp --}}
                                             {{-- @dd($products->pictures) --}}
 
-                                            <img src="{{asset('storage/app/public/uploads/images/'.$products->pictures[0]->image)}}" style="height:35rem;" alt="Image" class="img-fluid mx-auto d-block">
+                                            <img src="{{asset('storage/uploads/images/'.$products->pictures[0]->image)}}" style="height:35rem;" alt="Image" class="img-fluid mx-auto d-block">
 
 
                                         </div>

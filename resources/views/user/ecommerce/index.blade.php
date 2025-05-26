@@ -158,7 +158,7 @@ Products
                                             </span>
                                         </div>
 
-                                        <img src="{{asset('storage/app/public/uploads/images/'.$product->pictures[0]->image)}}" style="height:33rem;" alt="Image" class="img-fluid mx-auto d-block">
+                                        <img src="{{asset('storage/uploads/images/'.$product->pictures[0]->image)}}" style="height:33rem;" alt="Image" class="img-fluid mx-auto d-block">
 
                                     </div>
                                     <div class="mt-4 text-center">

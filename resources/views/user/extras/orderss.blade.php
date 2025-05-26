@@ -100,7 +100,7 @@ Orders list
                                                 <tr>
                                                     <th scope="row">
                                                         <div>
-                                                            <img src="{{asset('storage/app/public/uploads/images'.$item->product->image)}}" alt="product-img" class="avatar-sm">
+                                                            <img src="{{asset('storage/uploads/images'.$item->product->image)}}" alt="product-img" class="avatar-sm">
                                                         </div>
                                                     </th>
                                                     <td>
