@@ -236,7 +236,7 @@ Products
             onFinish: function(data) {
                 minPrice=data.from;
                 maxPrice=data.to;
-                updateProductsByPrice(data.from, data.to,search);
+                updateByPrice(data.from, data.to,search);
                 // console.log(data.from);
             },
         });
@@ -260,6 +260,23 @@ Products
                 min_price: minPrice,
                 max_price: maxPrice,
                 search: search,
+            },
+            dataType: 'html',
+            success: function(response) {
+
+                $("#product-list").html(response);
+
+            },
+        });
+    }
+    function updateByPrice(minPrice, maxPrice,search) {
+        $.ajax({
+            type: "GET",
+            url: "{{route('product.filter-by-price')}}",
+            data: {
+                min_price: minPrice,
+                max_price: maxPrice
+                // search: search,
             },
             dataType: 'html',
             success: function(response) {
