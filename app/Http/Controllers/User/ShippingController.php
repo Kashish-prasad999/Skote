@@ -39,7 +39,7 @@ class ShippingController extends Controller
 
         $shipping = new Shipping;
         $shipping->address = $request['address'];
-        $shipping->country = 'India';
+        // $shipping->country = 'India';
         $shipping->state = $request['state'];
         $shipping->city = $request['city'];
         $shipping->zipcode = $request['zipcode'];
